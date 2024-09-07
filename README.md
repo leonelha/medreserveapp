@@ -65,7 +65,7 @@ The Medical Appointment Booking System s a web-based platform designed to stream
 Requisitos No funcionales:
 
   
-Identificación del requerimiento:  	RNF01 
+## Identificación del requerimiento:  	RNF01 
 Nombre del Requerimiento:  	Usabilidad 
 Dependencias 	Ninguno  
 Versión 	1.0 
@@ -86,7 +86,7 @@ Contras de la facilidad de uso:
 
 
 
-Identificación del requerimiento:  	RNF02 
+## Identificación del requerimiento:  	RNF02 
 Nombre del Requerimiento:  	Seguridad  
 Dependencias 	Ninguno  
 Versión 	1.0 
@@ -108,7 +108,7 @@ o	Los usuarios pueden tener que recordar más contraseñas o realizar más pasos
  
 
 
-Identificación del requerimiento:  	RNF03 
+## Identificación del requerimiento:  	RNF03 
 Nombre del Requerimiento:  	Eficiencia 
 Dependencias 	Ninguno  
 Versión 	1.0 
@@ -130,7 +130,7 @@ o	El sistema puede requerir más hardware y software.
 
 
 
-Identificación del requerimiento:  	RNF04 
+## Identificación del requerimiento:  	RNF04 
 Nombre del Requerimiento:  	Desempeño 
 Dependencias 	Ninguno  
 Versión 	1.0 
@@ -153,7 +153,7 @@ o	El sistema puede requerir más hardware y software.
 	
 
 
-Identificación del requerimiento:  	RNF05 
+## Identificación del requerimiento:  	RNF05 
 Nombre del Requerimiento:  	Confiabilidad continúa 
 Dependencias 	Ninguno  
 Versión 	1.0 
@@ -176,7 +176,7 @@ o	El sistema puede requerir más hardware y software.
 
 
 
-Identificación del requerimiento:  	RNF06 
+## Identificación del requerimiento:  	RNF06 
 Nombre del Requerimiento:  	Mantenimiento. 
 Dependencias 	Ninguno  
 Versión 	1.0 
@@ -198,7 +198,7 @@ o	Puede haber más sobrecarga de rendimiento debido a la comunicación entre mó
  
 
 
-Identificación del requerimiento:  	RNF07 
+## Identificación del requerimiento:  	RNF07 
 Nombre del Requerimiento:  	Rendimiento 
 Dependencias 	Ninguno  
 Versión 	1.0 
@@ -222,7 +222,7 @@ o	El sistema puede requerir más hardware y software.
 
 
 
-Identificación del requerimiento:  	RNF08 
+## Identificación del requerimiento:  	RNF08 
 Nombre del Requerimiento:  	Soporte 
 Dependencias 	Ninguno  
 Versión 	1.0 
