@@ -1,8 +1,7 @@
 ## About the proyect
-<<<<<<< HEAD
+
 The Medical Appointment Booking System s a web-based platform designed to streamline the process of scheduling and managing medical appointments. Patients can easily book, change, or cancel their appointments, while clinics and doctors can keep track of their schedules.
-=======
->>>>>>> FernandoRR
+
 
 ## Built with
 <p align="left">
