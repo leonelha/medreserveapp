@@ -62,9 +62,8 @@ The Medical Appointment Booking System s a web-based platform designed to stream
 - **Generar reportes**: Administradores y personal autorizado pueden crear reportes sobre citas, pacientes, inventarios, etc.
 - **Consultar estadísticas**: Se pueden revisar estadísticas sobre el uso del sistema y otros indicadores clave.
 
-Requisitos No funcionales:
+# Requisitos No funcionales:
 
-  
 ## Identificación del requerimiento:  	RNF01 
 Nombre del Requerimiento:  	Usabilidad 
 Dependencias 	Ninguno  
