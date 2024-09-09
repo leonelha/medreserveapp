@@ -245,5 +245,5 @@ o	El sistema puede ser menos flexible.
 ## Configuration
 1. Clone the repository
 ```shell
-git clone 
+git clone https://github.com/leonelha/medreserveapp.git
 ```
