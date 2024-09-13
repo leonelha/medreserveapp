@@ -1,5 +1,5 @@
 # Medical Appointment Booking System
-<img src="..\medreserveapp\MedReserveApp\src\main\webapp\images\Logo.jpg" alt="Descripción de la imagen" width="210" height="180"/>
+<img src="MedReserveApp/src/main/webapp/images/Logo.png" alt="Descripción de la imagen" width="210" height="180"/>
 
 ## About the proyect
 
@@ -24,7 +24,15 @@
 ```shell
 git clone https://github.com/leonelha/medreserveapp.git
 ```
+2. Navigate to the project folder
 
-<!-- 
-> [View Logi and register](..\medreserveapp\MedReserveApp\src\main\webapp\views\ViewLoginRegister\Patient.html)
--->
+```shell
+cd medreserveapp/MedReserveApp/src/main/webapp/index.html
+```
+
+3. Run the index.html file
+
+```shell
+run index.html
+```
+  
