@@ -1,5 +1,5 @@
 # Medical Appointment Booking System
-<img src="../medreserveapp/MedReserveApp/src/main/webapp/images/Logo.png" alt="Descripción de la imagen" width="210" height="180"/>
+<img src="MedReserveApp/src/main/webapp/images/Logo.png" alt="Descripción de la imagen" width="210" height="180"/>
 
 ## About the proyect
 
