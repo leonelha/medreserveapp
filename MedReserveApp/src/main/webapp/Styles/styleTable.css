@@ -1,0 +1,104 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 14, 2024, 10:14:46 PM
+    Author     : Computadora
+*/
+/* Estilos generales de la tabla */
+/* Estilo para la tabla */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 2rem auto; /* Centra la tabla horizontalmente */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50; /* Verde para el encabezado de la tabla */
+    color: white;
+    padding: 0.75rem;
+}
+
+td {
+    padding: 0.75rem;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Gris claro para filas pares */
+}
+
+tr:hover {
+    background-color: #ddd; /* Color de fondo al pasar el ratón */
+}
+
+/* Hacer la tabla responsive */
+@media screen and (max-width: 768px) {
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    th, td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #4CAF50; /* Fondo verde para encabezado */
+        color: white;
+    }
+
+    td {
+        text-align: right;
+        padding: 0.75rem;
+    }
+
+    td::before {
+        content: attr(data-label); /* Mostrar etiquetas en dispositivos pequeños */
+        font-weight: bold;
+        display: block;
+        text-align: left;
+    }
+}
+
+/* Estilo para el paginador */
+.pagination {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.pagination button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.pagination button.disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+    color: #aaa;
+}
+
+.pagination button:hover:not(.disabled) {
+    background-color: #45a049;
+}
+
+.pagination button.active {
+    background-color: #333;
+}
