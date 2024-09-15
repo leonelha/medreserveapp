@@ -1,0 +1,42 @@
+1.	Requisitos No funcionales 
+  
+"Identificación del requerimiento:"  	RNF01 
+Nombre del Requerimiento:  	Usabilidad 
+Dependencias 	Ninguno  
+Versión 	1.0 
+Características:  	Facilidad de aprendizaje, Facilidad de recordación, Capacidad de error, Satisfacción del usuario y Accesibilidad 
+Descripción del requerimiento:  	El sistema debe tener una interfaz de uso intuitiva y sencilla. 
+	
+Estado 	Pendiente (Verificación - Confirmación) 
+Prioridad del requerimiento:      
+Alta  
+Comentarios  	Ninguno  
+Trade-Off 	Facilidad de uso vs. Funcionalidad 
+Pros de la facilidad de uso: 
+•	El sistema es más fácil de aprender y usar. 
+•	Es menos probable que los usuarios cometan errores. 
+Contras de la facilidad de uso: 
+•	El sistema puede tener menos funcionalidades. 
+•	El sistema puede ser menos flexible.  
+
+
+
+
+
+
+
+
+
+
+
+"Identificación del requerimiento":  	RNF02 
+Nombre del Requerimiento:  	Seguridad  
+Dependencias 	Ninguno  
+Versión 	1.0 
+Características:  	Autenticación, Cifrado de datos , Actualizaciones y parches y Respaldo y recuperación 
+Descripción del requerimiento:  	El sistema garantizara a los usuarios una seguridad y privacidad en cuanto a la información que se procede en el sistema. Cumpliendo con las regulaciones de protección de datos. 
+	
+Estado 	Pendiente (Verificación - Confirmación) 
+Prioridad del requerimiento:      
+Alta  
+Comentarios  	Ninguno  
