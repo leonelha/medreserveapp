@@ -15,6 +15,9 @@
 ## Requirements
 > [Funtional and non-funtional](./Requirements.md)
 
+## View Design
+> [View Design](https://www.figma.com/design/xGY6zYI5zjh1SZbwc8ZLBD/Prototype?node-id=0-1&t=dALg2U3ScuPfYPDG-1)
+
 ## Scrum Proyect
 
 > [Scrum Proyect](https://github.com/users/leonelha/projects/9/views/6)
