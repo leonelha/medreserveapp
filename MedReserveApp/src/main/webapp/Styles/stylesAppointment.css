@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+.form-container {
+    max-width: 600px;
+    width: 100%; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px; 
+    height: auto; 
+}
+
+h2 {
+    text-align: center;
+    color: #4CAF50;    
+}
+
+.step {
+    display: none;
+}
+
+.step.active {
+    display: block;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px; 
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="text"], input[type="date"], select {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"]:focus, input[type="date"]:focus, select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.short {
+    width: 95%; /* Sets the specific width for the fields */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; 
+}
+
+.button-container {
+    text-align: center; 
+}
