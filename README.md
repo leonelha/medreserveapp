@@ -15,7 +15,7 @@
 ## Requirements
 > [Funtional and non-funtional](./Requirements.md)
 
-## Proyect
+## Scrum Proyect
 
 > [Scrum Proyect](https://github.com/users/leonelha/projects/9/views/6)
    
@@ -29,10 +29,16 @@ git clone https://github.com/leonelha/medreserveapp.git
 ```shell
 cd medreserveapp/MedReserveApp/src/main/webapp/index.html
 ```
+```shell
+cd medreserveapp/MedReserveApp/src/main/webapp/AppointmentForm.html
+```
 
-3. Run the index.html file
+3. Run the files
 
 ```shell
 run index.html
+```
+```shell
+run AppointmentForm.html
 ```
   
