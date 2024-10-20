@@ -3,7 +3,7 @@ package doctorsArchitecture.domain.models;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "doctor")
+@Table(name = "doctors")
 
 public class Doctor {
     @Id
