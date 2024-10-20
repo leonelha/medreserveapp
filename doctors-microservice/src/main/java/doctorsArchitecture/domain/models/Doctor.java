@@ -3,13 +3,13 @@ package doctorsArchitecture.domain.models;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "doctor")
+@Table(name = "doctors")
 
 public class Doctor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = "name_doctor")
+    @Column(name = "first_name")
     private String doctorName;
 
     public Long getId() {
