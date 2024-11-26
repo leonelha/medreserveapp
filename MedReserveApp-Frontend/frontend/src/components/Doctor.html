@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register of doctors</title>
+    <link rel="stylesheet" href="Styles/stylesLoginRegister.css">
+</head>
+<body>
+    <div class="container">
+
+         <!-- Logo -->
+         <div class="logo-container">
+            <img src="images/Logo.jpg" alt="Logo del Sistema" class="logo">
+        </div>
+
+        <!-- Doctors Login Form -->
+        <div class="form-container" id="loginMedicoForm">
+            <h2>Sign in</h2> 
+            <form id="loginMedico">
+                <label for="login-medico-email">Email:</label>
+                <input type="email" id="login-medico-email" name="email" required>
+        
+                <label for="login-medico-password">Password:</label>
+                <input type="password" id="login-medico-password" name="password" required>
+        
+                <button type="submit">Sign in</button>
+                <p>Don't have an account? <a href="#" id="showMedicRegister">Sign up here</a></p>
+            </form>
+        </div>
+
+        <!-- Registration Form for Doctors -->
+        <div class="form-container hidden" id="registerMedicoForm">
+            <h2>Sign up</h2>
+            <form id="registerMedico">
+                <label for="register-medico-name">Full Name:</label>
+                <input type="text" id="register-medico-name" name="name" required>
+
+                <label for="register-medico-email">Email:</label>
+                <input type="email" id="register-medico-email" name="email" required>
+
+                <label for="register-medico-password">Password:</label>
+                <input type="password" id="register-medico-password" name="password" required>
+
+                <label for="register-medico-colegiatura">Medical Certification Code:</label>
+                <input type="text" id="register-medico-colegiatura" name="colegiatura" required>
+
+                <label for="register-medico-dni">DNI:</label>
+                <input type="text" id="register-medico-dni" name="dni" required>
+
+                <label for="register-medico-phone">Phone Number:</label>
+                <input type="tel" id="register-medico-phone" name="phone" required>
+
+                <button type="submit">Sign up</button>
+                <p>Already have an account? <a href="#" id="showMedicoLogin">Sign in</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="JS/scriptsLoginRegister.js"></script>
+</body>
+</html>

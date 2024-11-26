@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register of patient</title>
+    <link rel="stylesheet" href="Styles/stylesLoginRegister.css">
+</head>
+<body>
+    <div class="container">
+
+         <!-- Logo -->
+         <div class="logo-container">
+            <img src="images/Logo.jpg" alt="Logo del Sistema" class="logo">
+        </div>
+
+        <!-- Patient Login Form -->
+        <div class="form-container" id="loginPatientForm">
+            <h2>Sign in</h2>
+            <form id="loginPatient">
+                <label for="login-patient-email">Email:</label>
+                <input type="email" id="login-patient-email" name="email" required>
+
+                <label for="login-patient-password">Password:</label>
+                <input type="password" id="login-patient-password" name="password" required>
+
+                <button type="submit">Sign in</button>
+                <p>Don't have an account? <a href="#" id="showPatientRegister">Sign up here</a></p>
+            </form>
+        </div>
+
+        <!-- Patient Registration Form -->
+        <div class="form-container hidden" id="registerPatientForm">
+            <h2>Sign up</h2>
+            <form id="registerPatient">
+                <label for="register-patient-name">Full Name:</label>
+                <input type="text" id="register-patient-name" name="name" required>
+
+                <label for="register-patient-email">Email:</label>
+                <input type="email" id="register-patient-email" name="email" required>
+
+                <label for="register-patient-password">Password:</label>
+                <input type="password" id="register-patient-password" name="password" required>
+
+                <label for="register-patient-dni">DNI:</label>
+                <input type="text" id="register-patient-dni" name="dni" required>
+
+                <label for="register-patient-phone">Phone Number:</label>
+                <input type="tel" id="register-patient-phone" name="phone" required>
+
+                <button type="submit">Sign up</button>
+                <p>Already have an account? <a href="#" id="showPatientLogin">Sign in</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="JS/scriptsLoginRegister.js"></script>
+</body>
+</html>
