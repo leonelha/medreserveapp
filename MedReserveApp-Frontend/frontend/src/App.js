@@ -6,19 +6,22 @@ import Services from './components/Services';
 import Footer from './components/Footer';
 import ListClientsComponent from './components/ListClientsComponent';
 import ListAppointmentComponent from './components/ListAppointmentComponent';
+import ListDoctorComponent from "./components/ListDoctorComponent"
 import Specialties from './components/Specialties';
+import Emergency from './components/Emergency';
 
-const App = () => {
+const App = () =>
+   {
   return (
     <Router>
       <Header />
       <Banner />
       <Routes>
-        <Route path="/" element={<Services />} />
+        <Route path="/Services" element={<Services />} />
         <Route path="/Patient" element={<ListClientsComponent />} />
-        <Route path="/Doctor" element={<h1>Doctor Page</h1>} />
+        <Route path="/Doctor" element={<ListDoctorComponent />}/>
         <Route path="/specialties" element={<Specialties />} />
-        <Route path="/Emergency" element={<h1>Emergency Page</h1>} />
+        <Route path="/Emergency" element={<Emergency />} />
         <Route path="/MedicalAppoinment"  element={<ListAppointmentComponent />} />
       </Routes>
       <Footer />
