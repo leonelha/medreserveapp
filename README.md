@@ -57,4 +57,4 @@ run AppointmentForm.html
 
 '''
 Page Web:
-https://comforting-peony-9d69c8.netlify.app/add-reserve
+https://comforting-peony-9d69c8.netlify.app
